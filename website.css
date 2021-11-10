@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(10, 10, 10);
+
+    }
+.fade-in{
+    animation: fadeIn 7s;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
